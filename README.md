@@ -14,10 +14,10 @@ pip install git+https://github.com/barkm/torch-fenics.git@master
 A clean install of the package and its dependencies can for example be done with [Conda](https://conda.io/docs/)
 
 ```bash
-conda create --name torch-fenics
+conda create --name torch-fenics fenics -c conda-forge
 conda activate torch-fenics
-conda install -c conda-forge fenics
-pip install git+https://github.com/barkm/torch-fenics.git@master
+python3 -m pip install git+https://github.com/dolfin-adjoint/dolfin-adjoint.git@main
+pip install git+https://github.com/guglielmopadula/torch-fenics.git@master
 ```
 
 ## Details
